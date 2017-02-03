@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body, dl, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, form, img {margin:0; padding:0;}
+body, button, input, select, textarea {font:12px/160%, Microsoft YaHei, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-size:100%}
+em, b,i{font-style:normal}
+a,input{text-decoration:none; outline:none;}
+img{border:0;}
+input{outline:none;}
+li{list-style:none;}
+area{outline:none; border:0;}
+.hd{text-indent:-999em;overflow:hidden;height:0;line-height:0;	font-size:0;}
+.ht1{overflow:hidden; text-indent:-999em;}
+.clr:after{content:".";display:block;height:0;visibility:hidden;clear:both;}
+.clr{zoom:1;}
+
+body{background:#191109; font-family:Microsoft YaHei;position: relative;min-width: 1200px;_width: expression(((document.compatMode && document.compatMode=='CSS1Compat')? document.documentElement.clientWidth : document.body.clientWidth) < 1200? '1200px' : 'auto');	color: #f2fafe;	font-size: 14px;font-family:"Microsoft YaHei";}
+i{font-style:normal;}
+a:hover{color:#ffde00; text-decoration:none}
+.ht1{overflow:hidden;text-indent:-9999px;}
+.wrap{width:100%;}
+.area{width:1200px; margin:0 auto; position:relative; padding:58px 0 0; }
+
+.head{height:498px; background:url(../images/head_bg.jpg) no-repeat center top; position:relative}
+.head .logo{width:298px; height:209px; position:absolute; top:30px; left:50%; margin:0 0 0 -366px}
+
+.content{height:582px; background:url(../images/con_bg.jpg) no-repeat center top; position:relative}
+.content .dlarea{width:465px; height:260px; margin:0 0 0 160px;}
+.content .dlarea .qrcode{width:131px; height:172px; display:block; float:left; padding:21px 21px 0;  border-radius:5px; margin:2px 0 0; background:url(../images/qrcode_bg.png) no-repeat;}
+.content .dlarea a{width:274px; height:99px; background:url(../images/dl_btn.png) no-repeat; display:block; float:left; margin:0;}
+.content .dlarea a.btn_apple{background-position:0 0; margin-top:-3px;}
+.content .dlarea a.btn_apple:hover{background-position:0 -103px;}
+.content .dlarea a.btn_andriod{background-position:-276px 0;}
+.content .dlarea a.btn_andriod:hover{background-position:-278px -101px;}
+.content .dlarea .txt{float:left;width:215px;height:42px;position:relative;margin:10px 0 0 0;overflow: hidden;}
+.content .dlarea .txt .tbg{width:100%;height:100%;background-color:#000;opacity:0.5;filter:alpha(opacity=50);position:absolute;top:0;left:0;border-radius:0 5px 5px 0;z-index:1;}
+.content .dlarea .txt a{width:100%;line-height:42px;position:relative;z-index:2;text-align: center;font-size:14px;font-family:'宋体';font-weight:bold;background-image:none;color:#ffff00;}
+.content .dlarea .txt a:hover{color:#ffff00;}
+.content .dlarea .txt span{padding-right:17px;background:url('../images/docRight.png') no-repeat right center;margin-left:10px;}
+.content .dlarea .qq{width:220px; height:42px; float:left; position:relative; overflow:hidden; margin:10px 0 0 4px; text-align:center;font-family:'宋体';}
+.content .dlarea .qq .tbg{width:100%;height:100%;background-color:#000;opacity:0.5;filter:alpha(opacity=50);position:absolute;top:0;left:0;border-radius:5px 0 0 5px;z-index:1;}
+.content .dlarea .qq span{position:relative; z-index:2; text-align:center; font-size:14px; color:#ffffff; padding:0 0 0 23px; display:inline-block; *display:inline; *zoom:1; height:42px; line-height:42px; vertical-align:baseline; background:url('../images/ico_qq.png') no-repeat left center;}
+.content .dlarea .qq em{color:#ffffff; font-family:Arial}
+.content .dlarea .sline{width:2px; height:12px; background:#78a2cb; position:absolute; top:50%; margin-top:-5px; left:9px; z-index:2}
+
+.footer{position:absolute; bottom:0; left:50%; margin:0 0 0 -500px; padding:60px 0; width:1000px; color:#cccccc; text-align:center;}
+.footer .f-logo{width:133px; height:48px; display:inline-block; *display:inline; *zoom:1; background:url(../images/f-logo.png) no-repeat center;}
+.footer .txt{width:850px; display:inline-block; *display:inline; *zoom:1; line-height:24px; vertical-align:baseline; font-size:12px; text-align:left; padding:0 0 0 10px}
+.footer .txt a{color:#cccccc}
+.footer .txt span{padding:0 6px;}
+
+.pop{position:fixed;_position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;display:none;}
+.pop .zz{width:100%;height:100%;background-color:#000;opacity:0.7;filter:alpha(opacity=70);}
+.pop .showBox{width:1080px;position:absolute;z-index:10;top:0;left:50%;margin-left:-540px;height:100%;overflow: hidden;}
+.pop .imgBox{width:1100px;height:100%;overflow: hidden;overflow-y:auto;}
+.pop .closeBtn{position:absolute;top:0;left:0px;z-index:50;display:block;width:34px;height:34px;background:url('../images/closeBtn.png') no-repeat;}
+.pop .imgBox img{width:1080px;height:auto;}
+
+
+
+
+
+
+
