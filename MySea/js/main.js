@@ -10,7 +10,7 @@ function is_weixn(){
 var wx = is_weixn();
 if(!wx==true){
 	$('.dl_android').attr('href','http://192.168.96.178/MySea/Pak/fish.apk');
-	$('.dl_iphone').attr('href','itms-services://?action=download-manifest&amp;url=https://zt.pukeng.com/download/wqn.plist')
+	$('.dl_iphone').attr('href','itms-services://?action=download-manifest&amp;url=https://github.com/codekuangben/Web/blob/master/MySea/plist/mysea.plist')
 	//$('.dl_iphone,.dl_android').on('click',function(){
 		//$('.tip_wrap,.wxtip').show()
 	//})
