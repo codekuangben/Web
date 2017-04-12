@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://192.168.96.178/MySea/Pak/fish.ipa</string>
+					<string>https://gif5.club/Pak/fish.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>http://192.168.96.178/MySea/Pak/1.png</string>
+					<string>http://gif5.club/Pak/icon_3.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>http://192.168.96.178/MySea/Pak/2.png</string>
+					<string>http://gif5.club/Pak/icon_3.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>

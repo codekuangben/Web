@@ -5,7 +5,7 @@ body, button, input, select, textarea {font:12px/160%, Microsoft YaHei, sans-ser
 h1, h2, h3, h4, h5, h6 {font-size:100%}
 em, b,i{font-style:normal}
 a,input{text-decoration:none; outline:none;}
-img{border:0;margin-top:80px;}
+img{border:0;}
 input{outline:none;}
 li{list-style:none;}
 area{outline:none; border:0;}
@@ -18,7 +18,7 @@ html,body{height:100%; margin:0 auto }
 body{max-width:640px;}
 .bg{background:url(../images/bg.jpg) no-repeat center top; background-size:cover; max-width:640px; margin:0 auto; height:100%; position:relative}
 .logo{width:80%; padding:0.4rem 0 0 0; display:block; z-index:2; margin:0 auto;}
-.logo img{width:100%; z-index:2; position:relative;}
+.logo img{width:100%; z-index:2; position:relative;margin-top:80px;}
 .content{width:100%; position:absolute; bottom:0.24rem; left:0; z-index:1}
 .content .slogan{width:6.4rem;  margin:0 auto; display:block; position:relative; z-index:1}
 .content .btn_dl{width:3.71rem; height:1.15rem; display:block; margin:0.2rem auto 0.16rem;}
